@@ -7,5 +7,17 @@ perfeq/main.py
 perfeq.egg-info/PKG-INFO
 perfeq.egg-info/SOURCES.txt
 perfeq.egg-info/dependency_links.txt
+perfeq.egg-info/entry_points.txt
 perfeq.egg-info/requires.txt
 perfeq.egg-info/top_level.txt
+perfeq/analyzer/__init__.py
+perfeq/analyzer/perfeq.py
+perfeq/helpers/analyzers_helper.py
+perfeq/helpers/c_variable_counter.py
+perfeq/helpers/path_helper.py
+perfeq/helpers/python_variable_counter.py
+perfeq/models/__init__.py
+perfeq/models/code.py
+perfeq/models/quantity_info.py
+perfeq/models/warning_message.py
+perfeq/utils/enums.py

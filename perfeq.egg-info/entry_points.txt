@@ -1,0 +1,2 @@
+[console_scripts]
+perfeq = perfeq.main:analyze

@@ -14,6 +14,9 @@ def analyze():
     Raises:
         ValueError: If no input file/path is provided as a command-line argument.
     """
+    
+    print(pyfiglet.figlet_format("PerfeQ", font="slant"))
+
     args = sys.argv
 
     if len(args) == 1:
@@ -28,6 +31,4 @@ def analyze():
 
 
 if __name__ == "__main__":
-    
-    print(pyfiglet.figlet_format("PerfeQ", font="slant"))
     analyze()
