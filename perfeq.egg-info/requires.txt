@@ -1,0 +1,4 @@
+pyfiglet
+cpplint
+pylint
+naming-check

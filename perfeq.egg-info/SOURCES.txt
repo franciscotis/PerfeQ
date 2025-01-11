@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+perfeq/__init__.py
+perfeq/constants.py
+perfeq/main.py
+perfeq.egg-info/PKG-INFO
+perfeq.egg-info/SOURCES.txt
+perfeq.egg-info/dependency_links.txt
+perfeq.egg-info/requires.txt
+perfeq.egg-info/top_level.txt

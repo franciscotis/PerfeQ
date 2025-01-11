@@ -1,8 +1,16 @@
 import ast
-import re
 
 
 def python_variable_counter(code):
+    """
+    Counts the number of variable assignments and function definitions in a given Python code string.
+    Args:
+        code (str): A string containing Python code.
+    Returns:
+        tuple: A tuple containing two integers:
+            - The first integer is the count of variable assignments.
+            - The second integer is the count of function definitions.
+    """
     tree = ast.parse(code)
     variable_count = 0
     function_count = 0

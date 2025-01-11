@@ -1,6 +1,15 @@
 import re
 
 def c_variable_counter(code):
+    """
+    Counts the number of variable declarations and function definitions in a given C code.
+    Args:
+        code (str): A string containing the C code to be analyzed.
+    Returns:
+        tuple: A tuple containing two integers:
+            - variable_count (int): The number of variable declarations.
+            - function_count (int): The number of function definitions.
+    """
     function_pattern = re.compile(
     r'^[\w\s\*]+[\w\*]+\s*\([\w\s,]*\)\s*[{;]?$',
     re.MULTILINE

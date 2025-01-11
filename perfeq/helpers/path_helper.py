@@ -6,10 +6,34 @@ class PathHelper:
         self.dir_path = ""
         
     def is_dir(self):
+        """
+        Check if the given path is a directory.
+
+        Returns:
+            bool: True if the path is a directory, False otherwise.
+        """
         return os.path.isdir(self.path)
     
     
     def get_content(self):
+        """
+        Retrieves the content of files in the specified directory or a single file.
+        If the path is a directory, it lists all files in the directory and reads the content
+        of files with extensions '.py' or '.c'. If the path is a file, it reads the content
+        of the file if it has an extension '.py' or '.c'.
+        Returns:
+            list: A list of dictionaries, each containing:
+                - 'language': The programming language of the file ('.py' or '.c').
+                - 'file': The content of the file.
+                - 'path': The path to the file.
+        Raises:
+            FileNotFoundError: If the directory or file does not exist.
+            PermissionError: If there is no permission to access the directory or file.
+            Exception: For any other unexpected errors.
+        Prints:
+            Error messages for files that cannot be read due to being not found, permission issues,
+            or other unexpected errors.
+        """
         files = []
         try:
             if self.is_dir():

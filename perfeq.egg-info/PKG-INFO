@@ -1,3 +1,26 @@
+Metadata-Version: 2.2
+Name: perfeq
+Version: 1.0.0
+Summary: An integrated source code quality assessment tool focusing on adherence to programming language style conventions
+Author: Francisco Pereira
+Author-email: franncisco.p@gmail.com
+License: MIT License
+Keywords: integrated source code quality assessment tool
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyfiglet
+Requires-Dist: cpplint
+Requires-Dist: pylint
+Requires-Dist: naming-check
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
   
 
 # PerfeQ
