@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: perfeq
-Version: 1.0.2
+Version: 1.0.21
 Summary: An integrated source code quality assessment tool focusing on adherence to programming language style conventions
 Author: Francisco Pereira
 Author-email: franncisco.p@gmail.com
@@ -9,6 +9,7 @@ Keywords: integrated source code quality assessment tool
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: pyfiglet
+Requires-Dist: tqdm
 Requires-Dist: cpplint
 Requires-Dist: pylint
 Requires-Dist: naming-check

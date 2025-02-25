@@ -59,7 +59,7 @@ class Code:
             print(f"[{warning.line}] - {warning.message}")
         print("\n")
         print("Metrics:\n")
-        
+        print("QTD FUNÇÔES: ", self.functions_qty)
         print(f"Warnings per lines of code (WPL) - {self.warnings_per_lines_of_code*100:.2f}%\n")
         print(f"Variable Warnings per number of variables (VWPV) - {self.variable_warnings_per_number_of_variables*100:.2f}%\n")
         print(f"Function Warnings per number of functions (FWPF) - {self.function_warnings_per_number_of_functions*100:.2f}%\n")
